@@ -7,7 +7,7 @@
 
 header {
   width: 100%;
-  background-color: gainsboro;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,10 +15,85 @@ header {
 }
 
 h2 {
-  border: solid red wigth 20%;
+  border: solid red;
+  width: 20%;
 }
 
 nav {
-  border: 20%;
-  border: solid;
+  border: solid orange;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button {
+  border: solid #000000;
+  width: 10%;
+}
+
+.container-background-image {
+  height: 80vh;
+  background-color: aquamarine;
+  background-image: url("./imagem/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+}
+.container-background-image h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+.container-background-image h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.gestao-portuaria-integrada {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.gestao-portuaria-integrada h3 {
+  color: #0017e9;
+  font-size: 1, 5rem;
+  font-weight: 700;
+}
+
+.solucoes {
+  display: flex;
+}
+.solucoes h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #d8d8d8;
+  height: 3, 983vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: #001c43;
+  font-size: 0, 875rem;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

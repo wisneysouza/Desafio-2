@@ -1,41 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    width: 100%;
-    background-color: gainsboro;
-    display: flex  ;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 15vh;
+header {
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 15vh;
 }
-h2{
-    border: solid red;
-    wigth 20%;
+
+h2 {
+  border: solid red;
+  width: 20%;
 }
-nav{
-   border: solid orange;
-   width: 60%;
+
+nav {
+  border: solid orange;
+  width: 60%;
 }
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
 }
-button{
-    border: solid purple;
-    width: 10%;
+
+li{
+    font-size: 2rem;
+    text-transform: capitalize;
 }
-.container-background-image{
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+button {
+  border: solid #000000;
+  width: 10%;
+}
+
+
+.container-background-image {
+  height: 80vh;
+  background-color: aquamarine;
+  background-image: url("./imagem/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  h1 {font-size: 6rem;
+font-weight: 700;}
+  h2 {font-size: 2rem;
+font-weight: 700;}
+}
+.gestao-portuaria-integrada{
     height: 80vh;
-    background-color: aquamarine;
-    background-image: url("./imagem/background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    h3{color: #0017e9;
+    font-size: 1,5rem;
+font-weight: 700;}
+    
+}
+
+.solucoes{
+    display: flex;
+    h2{text-transform: uppercase;
+    font-weight: 700;
+font-size: 2rem;}
+
+}
+
+footer{
+    background-color: #d8d8d8;
+    height: 3,983vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        color: #001c43;
+        font-size: 0,875rem;
+        font-weight: 700;
+    }
 }
