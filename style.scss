@@ -8,49 +8,67 @@
 
 header {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  background-position: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 15vh;
-}
+  font-family: "Oswald", sans-serif;
+  h2 {
+    border: solid red;
+    width: 20%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+  }
 
-h2 {
-  border: solid red;
-  width: 20%;
-  font-size: 2,5rem;
-  font-weight: 700;
+  button {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    height: 7vh;
+    width: 10vw;
+  }
 }
 
 nav {
   border: solid orange;
-  width: 60%;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.25;
+  color: #5b5b5b;
 }
 
 ul {
   display: flex;
+  width: 40%;
   justify-content: space-evenly;
   list-style: none;
 }
 
-li{
-    font-size: 2rem;
-    text-transform: capitalize;
+li {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
 }
 
-a{
-    text-decoration: none;
-    color: #000000;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
 button {
-  border: solid #000000;
+  color: #0017e9;
   font-size: 2rem;
   font-weight: 700;
+  font-family: "Oswald", sans-serif;
   height: 7vh;
   width: 10vw;
 }
-
 
 .container-background-image {
   height: 80vh;
@@ -59,42 +77,113 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #FFFFFF;
-  h1 {font-size: 6rem;
-font-weight: 700;}
-  h2 {font-size: 2rem;
-font-weight: 700;}
-}
-.gestao-portuaria-integrada{
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    h3{color: #0017e9;
-    font-size: 1,5rem;
-font-weight: 700;}
-    
-}
-
-.solucoes{
-    display: flex;
-    h2{text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  h1 {
+    font-size: 6rem;
     font-weight: 700;
-font-size: 2rem;}
+    color: #ffffff;
+  }
 
+  h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  p {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+
+  button {
+    background-color: blue;
+    color: #ffffff;
+  }
+}
+.gestao-portuaria-integrada {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  h2 {
+    width: 50%;
+    color: #000000;
+    font-size: 2.25rem;
+    text-align: left;
+  }
+
+  h3 {
+    width: 50%;
+    color: #0017e9;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  p {
+    width: 30%;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  button {
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+  }
 }
 
-footer{
-    background-color: #d8d8d8;
-    height: 3,983vh;
+.solucoes {
+  width: 100vw;
+  height: 70vh;
+  background-color: rgb(209, 207, 207);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #0017e9;
+  }
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  p {
+    font-size: 1.5rem;
+    text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: row;
+  }
+}
+.galeria {
+  h2 {
+    color: #0017e9;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  font-family: "Oswald", sans-serif;
+}
 
-    p{
-        color: #001c43;
-        font-size: 0,875rem;
-        font-weight: 700;
-    }
+.atendimento {
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  button {
+    background-color: blue;
+    color: #ffffff;
+  }
+}
+
+footer {
+  background-color: #d8d8d8;
+  height: 3.983vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: #001c43;
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+  }
 }
