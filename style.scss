@@ -31,6 +31,8 @@ header {
     font-family: "Oswald", sans-serif;
     height: 7vh;
     width: 10vw;
+    margin-top: 2rem;
+    margin-left: 2rem;
   }
 }
 
@@ -48,13 +50,13 @@ ul {
   width: 40%;
   justify-content: space-evenly;
   list-style: none;
-}
+  }
 
 li {
   font-size: 2rem;
   font-family: "Oswald", sans-serif;
   text-transform: capitalize;
-}
+  }
 
 a {
   text-decoration: none;
@@ -80,12 +82,14 @@ button {
   font-family: "Oswald", sans-serif;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: start;
   flex-direction: column;
+  padding-left: 8rem;
   h1 {
     font-size: 6rem;
     font-weight: 700;
     color: #ffffff;
+    
   }
 
   h2 {
@@ -105,14 +109,21 @@ button {
 }
 .gestao-portuaria-integrada {
   height: 80vh;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: row;
   section{
     border:solid #0017e9;
-    width: 50%;
-    h2 {
-      width: 50%;
+    width: 40%;
+    img{
+      width: 40%;
+      border: solid red;
+    }
+    
+    h4 {
+      width: 30%;
       color: #000000;
       font-size: 2.25rem;
       text-align: left;
@@ -146,16 +157,34 @@ button {
 
 .solucoes {
   width: 100%;
-  height: 70vh;
-  background-color: rgb(209, 207, 207);
+  height: 80vh;
+  background-color: lightgrey;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   section{
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    article{
+      width: 30%;
+      height: 40vh;
+      border: solid red;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      background-color: #ffffff;
+      box-shadow: #5b5b5b;
+    }
+    h2{
+      font-size: 1.5rem;
+      color: #000000;
+      text-align: center;
+
+    }
     
   }
   h2 {
@@ -164,6 +193,11 @@ button {
     font-size: 2rem;
     color: #0017e9;
   }
+  h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+  }
   font-family: "Oswald", sans-serif;
   text-align: center;
   p {
@@ -171,23 +205,73 @@ button {
     text-align: center;
     display: flex;
     justify-content: space-around;
+    
   }
 }
-.galeria {
+.galeria { 
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  .fotos{  
+  height: 80vh;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  flex-direction: column;
+
+  section{
+    border: solid green;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  }
   h2 {
     color: #0017e9;
     font-size: 1.5rem;
     font-weight: 700;
   }
+  h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
   font-family: "Oswald", sans-serif;
 }
+//.fotos{
+ // border: solid green;
+ // width: 50%;
+  //display: flex;
+
 
 .atendimento {
+  width: 40%;
+  border: solid yellow;
   font-family: "Oswald", sans-serif;
   text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+   
+   h2{
+    color: #0017e9;
+    font-size: 2rem;
+   }
+  form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    
+  }
   button {
     background-color: blue;
     color: #ffffff;
+    
   }
 }
 
