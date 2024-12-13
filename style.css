@@ -16,7 +16,6 @@ header {
   font-family: "Oswald", sans-serif;
 }
 header h2 {
-  border: solid red;
   width: 20%;
   font-size: 2.5rem;
   font-weight: 700;
@@ -35,11 +34,10 @@ header button {
 }
 
 nav {
-  border: solid orange;
   width: 40%;
   display: flex;
   justify-content: flex-end;
-  font-size: 1.25;
+  font-size: 1.25rem;
   color: #5b5b5b;
 }
 
@@ -58,7 +56,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #737272;
 }
 
 button {
@@ -101,10 +99,11 @@ button {
 .container-background-image button {
   background-color: blue;
   color: #ffffff;
+  border: none;
 }
 
 .gestao-portuaria-integrada {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -112,38 +111,35 @@ button {
   flex-direction: row;
 }
 .gestao-portuaria-integrada section {
-  border: solid #0017e9;
   width: 40%;
+  height: 70vh;
   font-family: "Oswald", sans-serif;
   text-align: left;
-}
-.gestao-portuaria-integrada section img {
-  width: 40%;
-  border: solid red;
 }
 .gestao-portuaria-integrada section h4 {
   width: 30%;
   color: #000000;
-  font-size: 2.25rem;
+  font-size: 2rem;
   text-align: left;
+  font-family: "Roboto";
 }
 .gestao-portuaria-integrada section h3 {
   width: 50%;
   color: #0017e9;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 .gestao-portuaria-integrada section p {
-  width: 30%;
+  width: 90%;
   font-size: 1.5rem;
   text-align: left;
+  font-family: "Roboto";
 }
-.gestao-portuaria-integrada section button {
+.gestao-portuaria-integrada button {
   background-color: #ffffff;
   font-size: 1.2rem;
   text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
+  font-family: "Roboto";
   border: none;
 }
 
@@ -152,9 +148,10 @@ button {
   height: 80vh;
   background-color: lightgrey;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  font-family: "Oswald", sans-serif;
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
@@ -165,10 +162,8 @@ button {
 }
 .solucoes section article {
   width: 30%;
-  height: 40vh;
-  border: solid red;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
   background-color: #ffffff;
   box-shadow: #5b5b5b;
@@ -197,14 +192,13 @@ button {
 }
 
 .galeria {
-  background-color: yellow;
   display: flex;
   justify-content: space-around;
+  height: 80vh;
   font-family: "Oswald", sans-serif;
 }
 .galeria .fotos {
-  height: 80vh;
-  width: 40%;
+  width: 60%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -212,7 +206,6 @@ button {
   flex-direction: column;
 }
 .galeria .fotos section {
-  border: solid green;
   width: 55%;
   display: flex;
   flex-wrap: wrap;
@@ -221,7 +214,7 @@ button {
 .galeria h2 {
   color: #0017e9;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 .galeria h3 {
   color: #000000;
@@ -231,7 +224,6 @@ button {
 
 .atendimento {
   width: 40%;
-  border: solid yellow;
   font-family: "Oswald", sans-serif;
   text-align: left;
   display: flex;
@@ -239,18 +231,28 @@ button {
   flex-direction: column;
   align-items: center;
 }
+.atendimento form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+.atendimento input {
+  height: 3vh;
+}
+.atendimento div {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
 .atendimento h2 {
   color: #0017e9;
   font-size: 2rem;
 }
-.atendimento form {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.5rem;
-}
 .atendimento button {
   background-color: blue;
   color: #ffffff;
+  border: none;
 }
 
 footer {
